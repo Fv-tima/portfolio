@@ -2,26 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #232428;
+  padding: 20px 40px;
+}
+
+hr {
+  background: #afa071;
+  color: #afa071;
+  font-size: 40px;
+}
+
+.project-info {
+  box-shadow: 0 0 2px 2px #afa071;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 30px;
+  position: relative;
+}
+.project-txts {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-info:hover .project-txts {
+  top: 50%;
+  opacity: 1;
+}
+.project-image {
+  width: 100%;
+  height: 200px;
+}
+.link {
+  display: flex;
+  justify-content: space-between;
+}
+.link a {
+  padding: 20px;
+  font-size: 30px;
+}
+.link a:hover {
+  color: #afa071 !important;
 }
