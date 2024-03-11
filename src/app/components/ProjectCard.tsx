@@ -6,7 +6,7 @@ export default function ProjectCard() {
   return (
     <div className="w-full md:w-[600px] mt-4 mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8">
       {projects.map((project) => (
-        <div className="p-1 border-1 project-info 2 border-whitish rounded-sm shadow-md mx-auto  text-whitish">
+        <div className="p-1 border-1 project-info 2 border-whitish rounded-sm shadow-md mx-auto  text-whitish" key={project.img}>
           <Image
           className="project-image"
             src={project.img}

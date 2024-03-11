@@ -4,6 +4,6 @@ import Footer from "../components/Footer"
 export default function page() {
   return (
     <div><Project />
-    <Footer children="03"/></div>
+    <Footer child="03"/></div>
   )
 }

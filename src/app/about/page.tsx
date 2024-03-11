@@ -6,7 +6,7 @@ export default function page() {
   return (
     <div>
       <About/>
-      <Footer children="02"/>
+      <Footer child="02"/>
     </div>
   )
 }

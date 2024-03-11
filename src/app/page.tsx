@@ -4,6 +4,6 @@ import Footer from './components/Footer'
 export default function page() {
   return (
     <div><Banner/>
-    <Footer children="01"/></div>
+    <Footer child="01"/></div>
   )
 }

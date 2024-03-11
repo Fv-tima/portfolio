@@ -3,6 +3,6 @@ import Contact from "../components/Contact"
 export default function page() {
   return (
     <div><Contact />
-      <Footer children="04" /></div>
+      <Footer child="04" /></div>
   )
 }
