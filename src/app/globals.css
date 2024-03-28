@@ -19,9 +19,10 @@ hr {
 }
 
 .project-info {
-  box-shadow: 0 0 2px 2px #afa071;
+  border-width: 1px;
+  border: #afa071;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 30px;
   position: relative;
 }
@@ -56,7 +57,4 @@ hr {
 .link a {
   padding: 20px;
   font-size: 30px;
-}
-.link a:hover {
-  color: #afa071 !important;
 }
