@@ -38,12 +38,12 @@ export default function Nav() {
               src="/image/menu.png"
               width={30}
               height={30}
-              alt="openr" />}
+              alt="open" />}
         </div>
       </div>
       {openNav && (
-        <div className="md:hidden mt-4 h-screen justify-center flex">
-          <div className="flex flex-col space-y-[48px]">
+        <div className="md:hidden mt-4 h-screen justify-center flex" >
+          <div className="flex flex-col space-y-[48px]" onClick={open}>
             {navItems.map((item) => (
               <ul key={item.id} className="border-b-yellowy">
                 <Link className="text-greyn text-[16px] md:text-[18px] font-medium capitalize  hover:text-yellowy" href={item.link}><li>{item.name}</li></Link>

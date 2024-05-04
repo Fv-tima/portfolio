@@ -1,47 +1,51 @@
+import { title } from "process";
+
 export const projects = [
   {
-    img: "/image/cypto.png",
-    title: "Cypto crypto landing page",
-    description:
-      "A crypto currency projects i built on a twitter monthly challenge Using Html, Css, Javascript, Bootstrap and AOS",
+    title: "Get Linnked",
+    description: "Nextjs, ts and tailwind",
+    others: "Facillitate connection and networking between professional",
+    live: "https://get-linnked.netlify.app/",
+    github: "https://github.com/Fv-tima/getLinked",
+  },
+
+  {
+    title: "Cypto crypto",
+    description: "Html, Css, Js, Bootstrap and AOS",
+    others: "landing page for crypto cypto",
     live: "https://crappo-cypto-fv-tima.netlify.app/",
     github: "https://github.com/Fv-tima/crappo",
   },
   {
-    img: "/image/fylo.png",
-    title: "Fylo Landing Page",
-    description: "A frontend challenge built using Html and css",
+    title: "Fylo",
+    description: "Html and css",
     live: "https://fv-tima-fylo.netlify.app/",
+    others: "landing page for a frontend masters challenge",
     github: "https://github.com/Fv-tima/Fylo",
   },
   {
-    img: "/image/smart.png",
     title: "Smart watch website",
-    description: "A smart watch built using Html, Css and Bootstrap",
+    description: "Html, Css and Bootstrap",
+    others: "landing page for wrist watch website",
     live: "https://smart-watch-by-zvhra.netlify.app/",
     github: "https://github.com/Fv-tima/smart-watch-built-bootstrap",
   },
   {
-    img: "/image/movie.png",
     title: "Movie-appy",
-    description:
-      "A movie app with a search filter built using Html, Css and Javascript",
+    description: "Html, Css and Javascript",
+    others: "Movie web app with details",
     live: "https://movieappy.netlify.app/",
     github: "https://github.com/Fv-tima/movie-app",
   },
   {
-    img: "/image/git profile.png",
     title: "Github profile finder",
-    description:
-      "A github profile finder built using html,css and javascript",
+    description: "html,css and javascript",
     live: "https://my-github-profile-finder.netlify.app/",
     github: "https://github.com/Fv-tima/github-profile-finder",
   },
   {
-    img: "/image/todos.png",
     title: "Todos app",
-    description:
-      "A todo app built using react js with a delete and completed feature",
+    description: "React js",
     live: "https://fv-tima.github.io/todos-app/",
     github: "https://github.com/Fv-tima/todos-app",
   },

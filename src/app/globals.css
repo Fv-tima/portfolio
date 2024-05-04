@@ -18,43 +18,12 @@ hr {
   font-size: 40px;
 }
 
-.project-info {
-  border-width: 1px;
-  border: #afa071;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 30px;
-  position: relative;
+.project{
+  background-color: #1b1b1d;
 }
-.project-txts {
-  position: absolute;
-  text-align: center;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
-  opacity: 0;
-  width: 100%;
-  backdrop-filter: blur(10px);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.project-info:hover .project-txts {
-  top: 50%;
-  opacity: 1;
-}
-.project-image {
-  width: 100%;
-  height: 200px;
-}
-.link {
-  display: flex;
-  justify-content: space-between;
-}
-.link a {
+
+.project:hover{
+  transition: 0.5s ease-out;
+  margin: 20px;
   padding: 20px;
-  font-size: 30px;
 }
