@@ -2,6 +2,13 @@ import { title } from "process";
 
 export const projects = [
   {
+    title: "Finansy",
+    description: "Nextjs, ts, Firebase and tailwind",
+    others: "Finance made easier. Budget, track and save",
+    live: "https://finansyy.netlify.app",
+    github: "https://github.com/Fv-tima/Finansy",
+  },
+  {
     title: "Get Linnked",
     description: "Nextjs, ts and tailwind",
     others: "Facillitate connection and networking between professional",
