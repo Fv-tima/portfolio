@@ -1,6 +1,18 @@
 import { title } from "process";
 
 export const projects = [
+  {title:"BrainWave",
+    desription:"React(Vite), tailwind, React-just-parallax, Scroll-lock",
+    others:"A glimpse into the future",
+    live:"https://brain-waveai.netlify.app",
+    github:"https://github.com/Fv-tima"
+  },
+  {title:"Shopit",
+    desription:"Nextjs, tailwind",
+    others:"Style with exclusive clothing",
+    live:"https://shopitee.netlify.app",
+    github:"https://github.com/Fv-tima"
+  },
   {
     title:"Ima Blog",
     description:"Nextjs, ts, tailwind and sanity",
