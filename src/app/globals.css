@@ -7,23 +7,3 @@ html {
   margin: 0;
 }
 
-body {
-  background: #232428;
-  padding: 20px 40px;
-}
-
-hr {
-  background: #afa071;
-  color: #afa071;
-  font-size: 40px;
-}
-
-.project{
-  background-color: #1b1b1d;
-}
-
-.project:hover{
-  transition: 0.5s ease-out;
-  margin: 20px;
-  padding: 20px;
-}

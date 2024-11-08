@@ -9,12 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        whitish: "#cecccd",
-        greyed: "#5e6064",
-        yellowy: "#afa071",
-        blackey: "#3e4044",
-        blacked: "#232428",
-        greyn: "#8e8e8f",
+        darkBg: '#111111',
+        darkCard: '#1a1a1a',
+        lightText: '#eeeeee',
+        subtleText: '#888888',
       },
     },
   },

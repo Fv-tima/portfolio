@@ -1,12 +1,10 @@
 import Image from "next/image"
 import Link from "next/link"
 
-export default function Footer({ child }: any) {
-  const date = new Date();
-  let time = date.toLocaleString();
+export default function Footer() {
   return (
-    <footer className="w-full flex justify-between mt-12 inset-x-0 items-bottom">
-      <div className="flex flex-col gap-y-6">
+    <div className="md:hidden flex flex-col">
+      <footer className=" flex w-[60%] mx-auto mt-6 items-ceter justify-between gap-x-6">
         <Link href="https://twitter.com/Zvhra2">
           <Image
             src="/image/tw.png"
@@ -29,9 +27,9 @@ export default function Footer({ child }: any) {
             height={30}
             alt="github" />
         </Link>
-      </div>
-      <h1 className="text-greyed text-center mt-auto text-lg font-semibold">{child}</h1>
-      <h1 className="uppercase text-greyed font-bold mt-auto">{time}</h1>
+       
     </footer>
+    <p className="text-sm mt-6 text-center">Inspired by <span className="text-subtleText"> Collins Enebeli </span></p>
+    </div>
   )
 }
