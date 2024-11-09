@@ -16,9 +16,9 @@ export default function Nav() {
     <nav >
       <div className="hidden justify-between items-center fixed z-10 left-8 md:flex">
         <div className="text-lightText display flex items-start flex-col gap-6 justify-center p-8 bg-darkBg w-full h-screen" >
-          <h1 className="text-5xl font-bold mb-4">Hello, I'm <br /> Fatima Oluwalogbon.</h1>
+          <h1 className="text-5xl font-bold mb-4">Hello, I&apos;m <br /> Fatima Oluwalogbon.</h1>
           <p className="text-lightText max-w-md">
-            I'm a <span className="text-subtleText"> Frontend Engineer </span> dedicated to building engaging <span className="text-subtleText"> websites and mobile interfaces. </span> I focus on solving <span className="text-subtleText">problems </span> through frontend technology and am passionate about <span className="text-subtleText"> user experience, accessibility, design engineering, web animations, and emerging fields like web3.</span>
+            I&apos;m a <span className="text-subtleText"> Frontend Engineer </span> dedicated to building engaging <span className="text-subtleText"> websites and mobile interfaces. </span> I focus on solving <span className="text-subtleText">problems </span> through frontend technology and am passionate about <span className="text-subtleText"> user experience, accessibility, design engineering, web animations, and emerging fields like web3.</span>
           </p>
           <div className='flex flex-col gap-3 my-4'>
             <Link
