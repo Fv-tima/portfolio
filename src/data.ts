@@ -1,6 +1,18 @@
 import { title } from "process";
 
 export const projects = [
+  {title:"Lapo-Dashboard",
+    description:"React Js, Tailwind, Recharts",
+    others:"A coding assessment",
+    live:"https://lapo-dashboard.netlify.app/",
+    github:"https://github.com/lapo-dashboard"
+  },
+  {title:"Armanee",
+    description:"Next Js, Tailwind",
+    others:"A luxury real estate",
+    live:"https://armanee.netlify.app/",
+    github:"https://github.com/Armanee"
+  },
   {title:"BrainWave",
     description:"React(Vite), tailwind, React-just-parallax, Scroll-lock",
     others:"A glimpse into the future",
@@ -63,16 +75,25 @@ export const projects = [
     live: "https://movieappy.netlify.app/",
     github: "https://github.com/Fv-tima/movie-app",
   },
-  {
-    title: "Github profile finder",
-    description: "html,css and javascript",
-    live: "https://my-github-profile-finder.netlify.app/",
-    github: "https://github.com/Fv-tima/github-profile-finder",
+];
+
+
+
+export const app = [
+  {title:"Restate",
+    description:"Expo, React Native, Nativewind, Appwrite",
+    others:"A real estate mobile app",
+    github:"https://github.com/Fv-tima/restate"
   },
-  {
-    title: "Todos app",
-    description: "React js",
-    live: "https://fv-tima.github.io/todos-app/",
-    github: "https://github.com/Fv-tima/todos-app",
+  {title:"Oraimo",
+    description:"Expo, React Native",
+    others:"An ecommerce electronic store",
+    github:"https://github.com/Fv-tima/oraimo"
+  },
+  {title:"Todos",
+    description:"Expo, React Native, Nativewind, Async Storage",
+    others:"A random minimalistic todo for my personal use",
+    github:"https://github.com/Fv-tima/mi-todos"
   },
 ];
+

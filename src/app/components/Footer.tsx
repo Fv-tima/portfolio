@@ -13,7 +13,7 @@ export default function Footer() {
             alt="Twitter"
           />
         </Link>
-        <Link href="https://www.instagram.com/teemah247/">
+        <Link href="https://www.instagram.com/f_eemah/">
           <Image
             src="/image/in.png"
             width={30}
